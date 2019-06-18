@@ -1,3 +1,15 @@
+# Parstagram - Updates
+
+This is the same app that was made before with a touch of more color in the login screen to make the application more personal to the user!
+
+## Video Walkthrough
+
+Mind that the gif that is played lowers the quality of the gradient background tremendously
+
+<img src='https://github.com/JShimonov/ParstagramApp/blob/master/ParstagramGradient.gif' />
+
+---
+
 # Parstagram - Part II
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments!
