@@ -34,7 +34,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Unsername Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qbw-v6-2IW">
+                            <textField opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Unsername Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qbw-v6-2IW">
                                 <rect key="frame" x="16" y="319" width="343" height="30"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
@@ -47,7 +47,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xfh-5a-aou">
+                            <textField opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xfh-5a-aou">
                                 <rect key="frame" x="16" y="394" width="343" height="30"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
@@ -55,7 +55,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18q-09-zPM">
-                                <rect key="frame" x="150" y="446" width="74" height="34"/>
+                                <rect key="frame" x="16" y="446" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -81,7 +81,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.9701904031299442" green="0.72012490417986441" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.38152387915734148" green="0.72012490417986441" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ChK-ZI-MA0" firstAttribute="top" secondItem="Qbw-v6-2IW" secondAttribute="bottom" constant="16" id="0mA-3b-vWK"/>
@@ -91,8 +91,6 @@
                             <constraint firstItem="Qbw-v6-2IW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="IHq-Tg-TLp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ChK-ZI-MA0" secondAttribute="trailing" constant="245" id="JCN-KJ-Irc"/>
                             <constraint firstItem="Xfh-5a-aou" firstAttribute="top" secondItem="ChK-ZI-MA0" secondAttribute="bottom" constant="8" id="JfP-SC-gNd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="18q-09-zPM" secondAttribute="trailing" constant="135" id="V1J-hQ-29s"/>
-                            <constraint firstItem="18q-09-zPM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="134" id="V6g-OT-4jB"/>
                             <constraint firstItem="cja-fS-XNQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="66" id="Wak-Rl-p2D"/>
                             <constraint firstItem="aOt-WB-Its" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Z1L-Xr-50b"/>
                             <constraint firstItem="ChK-ZI-MA0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bh2-kR-HKc"/>
@@ -106,12 +104,15 @@
                             <constraint firstItem="cja-fS-XNQ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pWj-OF-1jV"/>
                             <constraint firstItem="TNe-0J-zAc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="134" id="qox-Od-77B"/>
                             <constraint firstItem="Qbw-v6-2IW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="stV-Gj-aUb"/>
+                            <constraint firstItem="18q-09-zPM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="vDz-1J-XT0"/>
                             <constraint firstItem="b6X-EO-axd" firstAttribute="top" secondItem="18q-09-zPM" secondAttribute="bottom" constant="27" id="x2H-di-UAB"/>
                             <constraint firstItem="cja-fS-XNQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ylH-Yb-ijc"/>
+                            <constraint firstItem="18q-09-zPM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zyP-Gn-f1J"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="18q-09-zPM" id="1xx-JD-EEX"/>
                         <outlet property="passwordField" destination="Xfh-5a-aou" id="C0S-ZG-viN"/>
                         <outlet property="usernameField" destination="Qbw-v6-2IW" id="GIA-BR-rQD"/>
                         <segue destination="hZV-e4-MtL" kind="presentation" identifier="loginSegue" id="37W-LL-Kb9"/>
@@ -119,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156" y="133.5832083958021"/>
+            <point key="canvasLocation" x="120.8" y="133.5832083958021"/>
         </scene>
         <!--Feed View Controller-->
         <scene sceneID="mJy-Db-iDd">
@@ -259,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSh-j8-SQn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1613.5999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1668" y="134"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="Zgb-ux-RtE">
@@ -323,7 +324,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2352.8000000000002" y="133.5832083958021"/>
+            <point key="canvasLocation" x="2447" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XwI-Db-CZb">

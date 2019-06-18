@@ -9,15 +9,28 @@
 import UIKit
 import Parse
 
+
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        //view.setFiveBackground(colorOne: Colors.princetonOrange, colorTwo: Colors.jasmine, colorThree: Colors.vividCerise, colorFour: Colors.grape, colorFive: Colors.iris)
+        
+        view.setThreeBackground(colorOne: Colors.brightOrange, colorTwo: Colors.eucalyplus, colorThree: Colors.richBlack)
+        
+        //loginButton.backgroundColor = Colors.princetonOrange
+        loginButton.layer.cornerRadius = 5
+        loginButton.layer.borderWidth = 0.8
+        loginButton.layer.borderColor = (Colors.black).cgColor
+        
+        
     }
     
 
